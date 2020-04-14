@@ -3,7 +3,7 @@
 author: Jakub Dolejší (xdolej09) \
 testing target: product buying process
 
-Choosing product set (product_choose.feature)
+Product choosing set (product_choose.feature)
 ----------------------------
 This set tests ways of choosing product.
 
@@ -20,4 +20,4 @@ such as adding, deleting or updating item in cart.
 Product buying set (product_buy.feature)
 ----------------------------
 This set contains tests of process of buying new item,
-including payment.
+including payment or delivery.
