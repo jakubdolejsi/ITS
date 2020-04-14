@@ -1,4 +1,3 @@
-# Created by Jakub at 14.04.2020
 Feature: Product choosing
   Background:
     Given "MacBook" is available
