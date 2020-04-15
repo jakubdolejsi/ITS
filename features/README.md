@@ -1,7 +1,10 @@
-## ITS - project 1: BDD test cases at OpenCart platform
+# ITS - project 1: BDD test cases at OpenCart platform
 
 author: Jakub Dolejší (xdolej09) \
 testing target: product buying process
+
+
+Aim of the project was to create few sets of BDD tests 
 
 Product choosing set (product_choose.feature)
 ----------------------------

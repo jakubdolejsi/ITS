@@ -7,6 +7,7 @@ Feature: Product actions
     When user clicks on the black "Add to Wish List" button
     Then product is added into his wish list
 
+
   Scenario: compare product
     Given a web browser is at opencart "MacBook" product page
     When user click on "Compare this Product" button

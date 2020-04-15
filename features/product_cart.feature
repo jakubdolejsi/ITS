@@ -7,7 +7,6 @@ Feature: Product cart
     And in "Qty" field is <qty>
     When user clicks on the "Add to Cart" button
     Then "MacBook" is added into the shopping cart with quantity <qty>
-
     Examples:
       | qty |
       | 1   |
