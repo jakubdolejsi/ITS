@@ -25,3 +25,16 @@ Feature: Product cart
     When user changes quantity to "1"
     And clicks to "Update" button
     Then "MacBook" is in the shopping cart with quantity "1"
+
+
+  Scenario: Enter checkout shopping cart as guest
+    Given web browser is at Shopping cart page
+    And user is not logged in
+    When user clicks on the "Checkout" button
+    Then checkout page is opened at step "1"
+
+  Scenario: Enter checkout shopping cart as logged in user
+    Given web browser is at Shopping cart page
+    And user is logged in
+    When user clicks on the "Checkout" button
+    Then step "2" is shown

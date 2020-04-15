@@ -12,3 +12,5 @@ Feature: Product actions
     Given a web browser is at opencart "MacBook" product page
     When user click on "Compare this Product" button
     Then product is added into his product comparison
+
+

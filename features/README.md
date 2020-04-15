@@ -3,7 +3,8 @@
 author: Jakub Dolejší (xdolej09) \
 testing target: product buying process
 
-
+Disclaimer
+----------------------------
 Aim of the project was to create few sets of BDD tests 
 
 Product choosing set (product_choose.feature)
