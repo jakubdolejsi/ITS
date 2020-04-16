@@ -2,33 +2,39 @@ ITS - project 1: BDD scenarios
 ==============================
 
 author: Jakub Dolejší (xdolej09)\
-testing target: product buying process
+testing target: product purchasing process
 
-Disclaimer
+Introduction
 ----------
 
-Aim of this project was to create scenarios for BDD testing for OpenCart
+Aim of this project was to create BDD scenarios for testing OpenCart
 e-commerce platform.
 
-Product choosing set (product\_choose.feature)
+Product choosing (product\_choose.feature)
 ----------------------------------------------
 
-This set tests ways of choosing product.
+This file contains tests of searching product and choosing product.
 
-Actions with product set (action\_with\_product.feature)
+Actions with product (product\_action.feature)
 --------------------------------------------------------
 
-This set tests behavior of product side actions such as comparing
-products and adding product to wishlist.
+This file tests behavior of product side actions such as comparing
+products and adding product to wish-list.
+
+Action with account (account\_action.feature)
+----------------------------------------
+This file tests the most important actions with account, concretely
+creating new account, logging into the existing account and logout.
+ 
 
 Product cart set (product\_cart.feature)
 ----------------------------------------
 
-This section contains work with concrete product such as adding,
+This file contains work with concrete product such as adding,
 deleting or updating item in cart.
 
-Product buying set (product\_buy.feature)
+Product buying set (product\_purchase.feature)
 -----------------------------------------
 
-This set contains tests of process of buying new item, including payment
-or delivery.
+This file contains tests of process of purchasing new product, including payment
+and delivery.
