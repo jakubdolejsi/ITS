@@ -1,4 +1,3 @@
-# Created by Jakub at 14.04.2020
 Feature: User account operations
 
   Scenario: Create new account

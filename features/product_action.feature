@@ -1,4 +1,3 @@
-# Created by Jakub at 14.04.2020
 Feature: Product actions
   Background:
     Given "MacBook" product is available on e-shop
